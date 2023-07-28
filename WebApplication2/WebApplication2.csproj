@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="MyStaticFiles\css\site.css" />
-    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="MyStaticFiles\css\site.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
@@ -16,7 +20,9 @@
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
-    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
@@ -24,7 +30,9 @@
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
-    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
@@ -32,7 +40,9 @@
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
-    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap.css.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap.min.css" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\css\bootstrap.min.css.map" />
@@ -48,7 +58,9 @@
     <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
-    <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.js.map" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.min.js" />
     <Content Include="MyStaticFiles\lib\bootstrap\dist\js\bootstrap.min.js.map" />
@@ -70,6 +82,15 @@
   <ItemGroup>
     <Folder Include="MyStaticFiles\js\" />
     <Folder Include="MyStaticFiles\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MyStaticFiles\images\изображениеотсутствует.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="MyStaticFiles\Index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

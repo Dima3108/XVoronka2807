@@ -29,3 +29,11 @@ Q:\github_repo\XVoronka2807\WebApplication2\obj\Debug\net6.0\refint\WebApplicati
 Q:\github_repo\XVoronka2807\WebApplication2\obj\Debug\net6.0\WebApplication2.pdb
 Q:\github_repo\XVoronka2807\WebApplication2\obj\Debug\net6.0\WebApplication2.genruntimeconfig.cache
 Q:\github_repo\XVoronka2807\WebApplication2\obj\Debug\net6.0\ref\WebApplication2.dll
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\css\site.css
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\lib\bootstrap\dist\css\bootstrap-grid.css
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\lib\bootstrap\dist\css\bootstrap-reboot.css
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\lib\bootstrap\dist\css\bootstrap-utilities.css
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\lib\bootstrap\dist\css\bootstrap.css
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\lib\bootstrap\dist\js\bootstrap.js
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\Index.html
+Q:\github_repo\XVoronka2807\WebApplication2\bin\Debug\net6.0\MyStaticFiles\images\изображениеотсутствует.jpg
